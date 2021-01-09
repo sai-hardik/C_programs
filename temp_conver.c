@@ -3,7 +3,8 @@
 main()
 {
 	printf("celsius  fahrenheit\n");
-	float fahr, celsius;
+	float fahr, celsius;                                   /*or by using for loop we can eliminate the rest variables only using fahr
+	                                                         for( fahr = 0; fahr <=300; fahr = fahr + 20)*/
 	int lower, upper, step;
 
 	lower = 0;
